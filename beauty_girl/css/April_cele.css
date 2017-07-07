@@ -1,0 +1,12 @@
+﻿body{margin:0 auto;}
+.mini_box .container{background-color:#fff; font-family:'微软雅黑'; width:100%; height:6009px; margin:0px auto !important; position: relative; overflow:hidden;}
+.pom-box{ width:1280px;height:6009px; top:0px; left:50%; margin-left:-640px; position:absolute;}
+.pom-box div{position:absolute;}
+#common{display:block;}
+#common1,#common2,#common3{display:none;}
+.pom-box .flow-left{background:url(images/float_left.png) no-repeat 0 0;width:120px;height:383px;padding-top:135px;left:0px;}
+.pom-box div.flow-left{position:fixed;top:140px;left:0px;z-index:999;}
+.pom-box .flow-left a{width:100%; height:45px; display:block;}
+img,area{
+    outline:none; 
+	}
