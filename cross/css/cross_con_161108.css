@@ -1,0 +1,43 @@
+﻿.aa{border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;}
+.line_f1{width:984px;height:4px;float:left;margin-top:10px;}
+ul,li{list-style:none;margin:0;padding:0;float:left;}
+.f1 ul.f1_u{width:998px;float:left;margin-top:10px;}
+.f1 ul .f1_u+li{width:482px;height:253px;}
+.f1 ul.f2_u{width:998px;float:left;}
+.f1 ul .f2_u+li{width:482px;height:253px;}
+.f3 ul.f3_u{width:1210px;float:left;}
+.f3 ul .f3_u+li{width:482px;height:253px;}
+.f4 ul.f4_u{width:1132px;float:left;}
+.f4 ul .f4_u+li{width:166px;height:86px;}
+.f2_236{width:236px;height:210px;}
+.f2_178{width:178px;height:102px;}
+.ml_28{margin-left:28px;}
+.fl{float:left;}
+.mb8{margin-bottom:8px;}
+.ml_11{margin-left:11px;}
+.ml_10{margin-left:10px;}
+.ml_15{margin-left:15px;}
+.ml_5{margin-left:5px;}
+.mt_10{margin-top:10px;}
+.ml_50{margin-left:50px;}
+.mb26{margin-bottom:26px;}
+.mt_44{margin-top:44px;}
+.mt_f4_l1{margin:44px 0 26px 50px;}
+.mt_f4_l2{margin:44px 0 26px 0px;}
+.f1 ul.f2_roll{width:744px;float:left;}
+.f1 ul .f2_roll+li{width:178px;height:104px;}
+
+.box { width:1920px; height:464px;border:0px;}
+.box img { width:1920px; height:464px;border:0px;background:url(http://promotions.gbhui.com/pomos/2016_celebrate/kuajing_topic/images/roll_01.jpg) no-repeat; }
+.box ul { width:150px; position:absolute; top:430px;right:380px; }
+.box li { width:20px; height:20px;float:left;text-align:center;line-height:20px;border-radius:20px;margin-left:10px;cursor:pointer;z-index:999;background:#666;;}
+.box .active { background:#FC3; }
+
+.box_f1 { width:231px; height:174px;margin-top:32px;margin-left:8px;background:url(http://promotions.gbhui.com/pomos/2016_celebrate/kuajing_topic/images/floor1_01.jpg) no-repeat center #fff;}
+.box_f1 img { width:231px; height:174px; }
+.box_f1 ul { width:60px; position:absolute; top:710px;left:190px; }
+.box_f1 li { width:10px; height:10px;float:left;text-align:center;line-height:10px;border-radius:10px;margin-left:2px;cursor:pointer;z-index:999;background:#666;;}
+.box_f1 .active { background:#FC3; }
