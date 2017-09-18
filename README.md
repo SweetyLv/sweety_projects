@@ -5,8 +5,9 @@
 
 <h3>历史回顾</h3>
 <div><a href="http://htmlpreview.github.com/?https://github.com/SweetyLv/sweety_projects/blob/master/beauty_girl/index.html" target="_blank"><img src="" />1）2015年粗糙的动漫美女轮播效果</a></div></br>
-<div><a href="http://htmlpreview.github.io/?https://github.com/SweetyLv/sweety_projects/blob/master/cross/index.html" target="_blank"><img src="" />2) css3和轮播效果活动页</a></div></br>
-<a>回看刚入门的这两个作品，很粗糙但值得深思</a>
+<div><a href="http://htmlpreview.github.io/?https://github.com/SweetyLv/sweety_projects/blob/master/cross/index.html" target="_blank"><img src="" />2)2016年css3和轮播效果活动页</a></div></br>
+<div><a href="http://htmlpreview.github.io/?https://github.com/SweetyLv/sweety_projects/blob/master/yichuan/index.html" target="_blank"><img src="" />3)第一个全站点开发</a></div></br>
+<a>回看过去的历史作品，很粗糙但值得深思和回味，不忘初衷，锲而不舍</a>
 
 
 
