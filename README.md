@@ -8,6 +8,10 @@
 
 > <a>回看过去的历史作品，很粗糙但值得深思和回味，不忘初衷，锲而不舍</a>
 
+# 组件足迹
+><a>relacity进行MVC结构的组件，最近一直在做这些组件</a>
+* [2015年粗糙的动漫美女轮播效果](http://htmlpreview.github.com/?https://github.com/SweetyLv/sweety_projects/blob/master/beauty_girl/index.html)
+
 
 
 
