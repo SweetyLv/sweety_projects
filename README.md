@@ -10,7 +10,7 @@
 
 # 组件足迹
 ><a>relacity进行MVC结构的组件，最近一直在做这些组件</a>
-* [2015年粗糙的动漫美女轮播效果](http://htmlpreview.github.com/?https://github.com/SweetyLv/sweety_projects/blob/master/beauty_girl/index.html)
+* [世界地图美食区的展示](https://github.com/SweetyLv/module/tree/master/map_pattern01)
 
 
 
