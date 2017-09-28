@@ -11,6 +11,7 @@
 # 组件足迹
 ><a>relacity进行MVC结构的组件，最近一直在做这些组件</a>
 * [世界地图美食区的展示](https://github.com/SweetyLv/module/tree/master/map_pattern01)
+*[鼠标经过翻转为三个商品的组件](https://github.com/SweetyLv/module/tree/master/pc_twoPicReverCom)
 
 
 
