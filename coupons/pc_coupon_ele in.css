@@ -1,0 +1,225 @@
+
+.coupon_content{width:1160px;position:relative;left:60px;height: auto;margin-top: 20px;}
+
+.stamp_content{
+	margin-right:36px;
+	margin-bottom:16px;
+	width: 350px;
+	position: relative;
+	overflow: hidden;
+	background-color: #F39B00;
+}
+.mg_to{
+	margin-top: 10px;
+}
+.stamp{
+	background: radial-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 5px,#FF954F 5px );
+	background-size: 16px 16px;
+	background-position: 200px 200px;
+}
+.stamp:before{
+	content: '';
+	z-index: 0; 
+	top: 0px;
+	bottom: 0px;
+	left: 6px;
+	right: 8px;
+     position: absolute;
+    background-color: #FF954F;
+}
+.stamp:after{
+	content: '';
+	z-index: -2;
+	top: 0px;
+	bottom: 0px;
+	left: 10px;
+	right: 10px;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5);
+	 position: absolute;
+}
+.stamp p{margin:0;padding: 0;}
+.stamp i {
+	position: absolute;
+	left: 20%;
+	top: 45px;
+	height: 190px;
+	width: 390px;
+	background-color: rgba(255, 255, 255, .15);
+	transform: rotate(-30deg);
+}
+
+.stamp .first_par {
+	float: left;
+	width: 85%;
+	border-right: 2px dashed rgba(255, 255, 255, .3);
+	text-align: left;
+	position: relative;
+	margin: 8px;
+}
+.stamp .store_name{
+	color: #fff;
+	font-size: 12px;
+}
+/*
+.stamp .detail{
+	color: #fff;
+	font-size: 14px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 15px;
+    position: relative;
+}
+*/
+.stamp .own{
+	color: #333;
+	font-size: 14px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.stamp .first_par .value_content{
+	position: relative;
+	margin-left: 15px;
+	margin-top:10px;
+	height: auto;
+}
+.stamp .first_par .value_content .sign_detail{
+	color: #fff;
+	margin-right: 5px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.stamp .first_par .value_content .sign_detail .sign{
+	font-size: 22px;
+}
+.stamp .first_par .value_content .sign_detail .acount{
+	font-size: 46px;
+}
+
+.stamp .first_par .value_content .sign_rig .super_cou{
+	font-size: 10px;
+	color: #333;
+	position: absolute;
+	margin-top: 10px;
+}
+.stamp .first_par .sign_content{
+	width: 100px;
+}
+.stamp .first_par .sign_content .sign {
+	font-size: 30px;
+}
+
+.stamp .first_par sub {
+	position: relative;
+	top: -5px;
+	color: rgba(255, 255, 255, .8);
+} 
+.stamp .copy_contant{
+    position: relative;
+	font-size: 17px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	line-height: initial;
+	top: 32px;
+	left: -4px;
+}
+
+.stamp .copy p {
+	font-size: 10px;
+	margin-top: 7px;
+}
+
+/* by sweety
+.stamp01 {
+	background: #F39B00;
+    background: radial-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 5px,#FFA387 5px );
+	白色点
+	background-size: 16px 16px;
+	background-position: 0.75em 0.15em;
+}
+
+.stamp01:before{
+	background-color: #FFA387;
+}
+*/
+/* by sweety
+.stamp * {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: "Microsoft YaHei", 'Source Code Pro', Menlo, Consolas,
+		Monaco, monospace;
+}
+
+.stamp {
+	width: 350px;
+	height: 172px;
+	padding: 0 10px;
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.stamp:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 10px;
+	right: 10px;
+	z-index: -1;
+}
+
+.stamp:after {
+	content: '';
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5);
+	z-index: -2;
+}
+*/
+.conpon_selected_name{
+	position:relative;
+	float:left;
+	width:5rem; 
+	overflow: hidden; 
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.conpon_selected_momey{
+	color:red;
+	position:relative;
+	float:right;
+}
+.page{  
+        background-color: #FAFAFA;
+}
+			
+		
+.stamp img {
+	display: block;
+	width: 100%;		
+	display:inline-block;   
+	border-radius:8px;  
+        box-shadow:0 3px 3px rgba(0, 0, 0, 0.2);
+}
+			
+.close {
+	width: 100%;
+	border-top: 2px solid #eee;
+	padding: 10px;
+}
+
+lable { 
+        color:#585b61;
+        font-size: 10px;
+} 
+.consume {
+       color:#FFF;
+        font-size: 14px;
+}
+
