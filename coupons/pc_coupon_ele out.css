@@ -1,33 +1,33 @@
+.login_mes{position: relative;display: inline-block;display: none;}
+/*****/
 .coupon_content{width:1160px;position:relative;left:60px;height: auto;margin-top: 20px;}
 
-.coupon_content ul,li{margin: 0;padding: 0;}
+.coupon_content ul,li{margin: 0;padding: 0;float: left;}
 
 .coupon_content ul,.coupon_content li{float:left;}
 
 li.stamp.stamp_content{
-	width: 350px;
-	height: 160px;
-}
-
-.mg_to{
-	margin-top: 10px;
+	width: 380px;
+	height: 170px;
+	margin-top:30px;
+	margin-left: 6px;
+	margin-bottom: 0px;
 }
 
 .to_10{
 	top:-8px;
 }
 .stamp_content{
-	margin-right:36px;
+	/* margin-right:36px; */
 	margin-bottom:16px;
 	width: 350px;
 	position: relative;
 	overflow: hidden;
-	/* background-color: #F39B00; */
+	background-color: #${stamp_bg};
 }
 .stamp{
-	background: radial-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 5px,#${stamp_bg} 5px );
-	background-size: 16px 16px;
 	background-position: 200px 200px;
+	background-size: 16px 16px;
 }
 .stamp:before{
 	content: '';
@@ -35,10 +35,9 @@ li.stamp.stamp_content{
 	top: 0px;
 	bottom: 0px;
 	left: 6px;
-	right: 8px;
-     position: absolute;
-    background-color: #${stamp_bg};
-}
+	right: 3px;
+    position: absolute;
+ }
 .stamp:after{
 	content: '';
 	z-index: -2;
@@ -79,6 +78,11 @@ li.stamp.stamp_content{
 	text-overflow: ellipsis;
     white-space: nowrap;
     position: relative;
+    margin-left: 15px;
+    margin-top:5px;
+}
+.mg_to{
+	margin-top: 10px;
 }
 .stamp .own{
 	color: #333;
@@ -87,10 +91,28 @@ li.stamp.stamp_content{
     position: relative;
 }
 
+.stamp .detail_mg_to{
+	color: #fff;
+	font-size: 14px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.stamp .own{
+	color: #333;
+	font-size: 14px;
+    margin-left: 15px;
+    position: relative;
+    margin-top:10px;
+}
+
 .stamp .first_par .value_content{
 	position: relative;
-	margin-left: 15px;
-	margin-top:10px;
+	margin-left:15px;
+	margin-top:16px;
 	height: auto;
 }
 .stamp .first_par .value_content .sign_detail{
@@ -110,7 +132,7 @@ li.stamp.stamp_content{
 	font-size: 10px;
 	color: #333;
 	position: absolute;
-	top: -25px;
+	top: -25px; /*in  margin-top: 10px; by sweety*/
 }
 .stamp .first_par .sign_content{
 	width: 100px;
@@ -125,11 +147,17 @@ li.stamp.stamp_content{
 	color: rgba(255, 255, 255, .8);
 } 
 .stamp .copy_contant{
+	position: relative; /*add out is none by sweety*/
 	font-size: 17px;
 	color: rgb(255, 255, 255);
 	text-align: center;
+	line-height: initial;
+	top: 36px;
+	left: -4px;
+	/* out by sweety
 	display: inline-block;
 	padding-left: 8px;
+	*/
 }
 
 .stamp .copy p {
@@ -151,7 +179,7 @@ li.stamp.stamp_content{
 	float:right;
 }
 .page{  
-        background-color: #FAFAFA;
+        background-color: #${stamp_bg};/* out #FAFAFA; by sweety*/
 }
 			
 		
@@ -173,7 +201,14 @@ lable {
         color:#585b61;
         font-size: 10px;
 } 
+ul li.stampqidai{margin-bottom:16px;}
+<!-- 阴影部分 begin -->
+.sha_1711{transition:all .3s ease;overflow:hidden;position:relative;}
+.sha_1711:hover{box-shadow: 2px 1px 4px 6px #999;transform:translateY(1px);z-index:999;/*filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8;*/}
+<!--  阴影部分 end -->
 .consume {
        color:#FFF;
         font-size: 14px;
 }
+
+.coupon_content .wait_content a.wait_coupon{float:left;display:inline;margin-top: 30px;margin-left:6px;}
