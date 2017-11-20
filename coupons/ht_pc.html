@@ -1,34 +1,34 @@
-<link rel="stylesheet" href="${PCWEBROOT_PATH}res/PCcss/pc_coupon_ele.css">
+<link rel="stylesheet" href="${PCRESOURCE_PATH}res/PCcss/pc_coupon_ele.css">
 <div class="coupon_content">
-<ul>
+	<ul class="coupon_tiket">
 #set($j=0)
 #foreach($item in ${coupons})
 #if($j<100)
-        <li class="stamp stamp_content">	
+        <li class="stamp stamp_content sha_1711">	
 			<div class="first_par ">
 				<p class="detail to_01">$item.get("scheme_name")</p>
 				<div class="value_content">
 					<span class="sign_detail">
 						<span class="sign">￥</span>
-                    #set($face_value=$item.get("face_value"))
+                                       #set($face_value=$item.get("face_value"))
 				 	#set($str_leng=$face_value.length() - 2)
 				 	#set($face_value=$face_value.substring(0,$str_leng))
 						<span class="acount">$face_value</span>
 					</span>
 					<span class="sign_rig">
-                    #set($lowest_consume=$item.get("lowest_consume"))
+                                       #set($lowest_consume=$item.get("lowest_consume"))
 				 	#set($strleng=$lowest_consume.length() - 2)
 				 	#set($lowest_consume=$lowest_consume.substring(0,$strleng))
 	                	<sub class="consume">满$lowest_consume元可用</sub>
 	            	</span>
             	</div>
                 <p class="detail">$item.get("remark")</p>
-                    #set($format_start_time=${item.get('start_time')})
-                    #set($format_start_time=$format_start_time.substring(0,10))
-                    #set($format_end_time=${item.get('end_time')})
-                    #set($format_end_time=$format_end_time.substring(0,10))
+                                   #set($format_start_time=${item.get('start_time')})
+                                    #set($format_start_time=$format_start_time.substring(0,10))
+                                    #set($format_end_time=${item.get('end_time')})
+                                    #set($format_end_time=$format_end_time.substring(0,10))
                 <p class="detail_mg_to">$format_start_time至$format_end_time</p>
-                <p class="own">xx拥有法律允许范围内的最终解释权</p>
+                <p class="own">广百电器拥有法律允许范围内的最终解释权</p>
              </div>     
 			<div class="copy_contant" couponno="$item.get("scheme_no")">
 				<div class="copy">立</div>
@@ -40,7 +40,9 @@
 #set($j=$j+1)
 #end
 #end
-		</ul>
-		<div class="login_mes" style="width:200px;height:100px;background-color:yellow;text-align:center;line-height:6;">领取优惠券前请先登录！</div>
+	</ul>
+	<div class="wait_content">
 	</div>
-<script type="text/javascript" src="${PCWEBROOT_PATH}res/PCjs/pc_coupon_debug.js"></script>
+	</div>
+<script type="text/javascript" src="${PCRESOURCE_PATH}res/PCjs/pc_coupon.js"></script>
+<script type="text/javascript" src="${PCRESOURCE_PATH}res/PCjs/PC_getCoupon.js"></script>
