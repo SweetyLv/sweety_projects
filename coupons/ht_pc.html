@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="${PCRESOURCE_PATH}res/PCcss/pc_coupon_ele.css">
 <div class="coupon_content">
+	<div class="coupon_importent">
 	<ul class="coupon_tiket">
 #set($j=0)
 #foreach($item in ${coupons})
@@ -43,6 +44,10 @@
 	</ul>
 	<div class="wait_content">
 	</div>
+	</div>
+	<div class="success" id="success"><img src="${PCimg_PATH}2017_active/coupon/images/success.png"></div>
+	<div class="btnclose" id="btnclose"></div>
+   	<div class="zhezhao" id="zhezhao"></div> 
 	</div>
 <script type="text/javascript" src="${PCRESOURCE_PATH}res/PCjs/pc_coupon.js"></script>
 <script type="text/javascript" src="${PCRESOURCE_PATH}res/PCjs/PC_getCoupon.js"></script>
