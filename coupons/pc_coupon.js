@@ -25,7 +25,15 @@ $(function(){
 						alert("领取优惠券出错，请刷新后重新领取！");
 						return;
 					}else if(nowdata.data.status == 'success'){
-						alert("领取优惠券成功！");
+						$(".coupon_importent").css("z-index","10");
+						$(".success").show();
+						$(".btnclose").show();
+						$(".zhezhao").show();
+						$(".btnclose").click(function(){
+							$(".success").hide();
+							$(".btnclose").hide();
+							$(".zhezhao").hide();
+							});
 						return;
 					}
 				}
@@ -34,5 +42,6 @@ $(function(){
 			alert('暂无其他优惠券，敬请期待！');
 		}
 		
-	})
-})
+	});
+});
+
