@@ -12,3 +12,6 @@
 * 最新的 Bootstrap 核心 JavaScript 文件 
 (<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>)
 
+* 你还可以使用以下的 CDN 服务：
+> 国内推荐使用 : https://www.staticfile.org/
+> 国际推荐使用：https://cdnjs.com/
