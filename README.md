@@ -10,4 +10,4 @@
 * [世界地图美食区的展示](https://github.com/SweetyLv/module/tree/master/map_pattern01)
 * [鼠标经过翻转为三个商品的组件](https://github.com/SweetyLv/module/tree/master/pc_twoPicReverCom)
 * [实用的js获取当前年月日时分秒星期](https://github.com/SweetyLv/module/tree/master/Date)
-* [倒计时bysweety](https://github.com/SweetyLv/sweety_projects-bootstrap/tree/master/second_skiil_bysweety）
+* [倒计时随手写的封装插件](https://github.com/SweetyLv/sweety_projects-bootstrap/tree/master/second_skiil_bysweety)
