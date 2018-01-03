@@ -21,6 +21,7 @@
 * [样式赋值](https://github.com/SweetyLv/sweety_node_knowlege/tree/master/js_add_style)
 * [实用的js获取当前年月日时分秒星期](https://github.com/SweetyLv/module_relacity_MVC/tree/master/Date)
 * [简约非成品倒计时](https://github.com/SweetyLv/sweety_projects-bootstrap/tree/master/second_skill)
+* [一行字段自动换行处理]（https://github.com/SweetyLv/sweety_projects-bootstrap/blob/master/replace_str.html）
 ### CSS3
 * [translateZ](http://htmlpreview.github.io/?https://github.com/SweetyLv/sweety/blob/master/translateZ_kn.html)
 ### how to write md
