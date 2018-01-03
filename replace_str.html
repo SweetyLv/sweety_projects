@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"></meta>
+<script src="jquery-1.7.2.min.js">
+</script>
+</head>
+<body>
+	<div class="stamp">
+		<p>ddgege</p>
+		<p class="rule">nijgege；gegegee</p>
+	</div>
+</body>
+<script>
+$(function(){
+	 var Arr = [];
+	$('.stamp').each(function(){                   			
+		var rule = $(this).find('.rule').text();
+		//console.log(rule);
+		Arr.push(rule);	
+		//console.log(paramsArr);            				
+	})
+	for(var i = 0 ;i<paramsArr.length;i++){                   	
+		Arr[i] =  Arr[i].replace( /；/g, '<br />');
+		$('.rule').eq(i).html(Arr[i]);                  			
+	}
+
+})
+</script>
+</html>
