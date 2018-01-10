@@ -1,5 +1,8 @@
 /**
- * 本文件重点行号71，分功能模块路由，api模块以及处理前台展示的功能，先对应配合admin01.js使用，完成分功能模块的划分设置
+ * 本文件重点行号71，分功能模块路由，api模块以及处理前台展示的功能模块，先对应配合admin01.js使用，完成分功能模块的划分设置
+ * app.use('/admin', require('./routers/admin'));  //用到app.use(路由,加载路由文件夹下面的admin);
+ * app.use('/api', require('./routers/api'));  //用来处理api，后台 管理
+ * app.use('/', require('./routers/main'));   //用来处理前台展示的功能，首页展示main
  * 应用程序的启动（入口）文件
  */
 
