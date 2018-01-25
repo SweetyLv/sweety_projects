@@ -1,3 +1,9 @@
+### Node.js
+* >[第一个node.js博客项目的心得体会](http://www.qdfuns.com/notes.php?mod=view&u=15282&id=20f83fc45676cdd6af764eb435125bc4)
+* >[URL&HTTP协议&GET请求&POST请求](https://www.cnblogs.com/LDSmallCat/p/4942039.html)
+* >[nodejs router.get怎么在里面调用方法](https://zhidao.baidu.com/question/1898708777239951660.html)
+* >[nodejs Express 4.x req.body req.query req.params 三种获取参数的方法](https://www.cnblogs.com/yourstars/p/5993376.html)
+
 ### 历史回顾
 * [第一个全站开发](http://htmlpreview.github.io/?https://github.com/SweetyLv/sweety_projects/blob/master/yichuan/index.html)
 * [2016年css3和轮播效果活动页](http://htmlpreview.github.io/?https://github.com/SweetyLv/sweety_projects/blob/master/cross/index.html)
@@ -21,7 +27,6 @@
 * [样式赋值](https://github.com/SweetyLv/sweety_node_knowlege/tree/master/js_add_style)
 * [实用的js获取当前年月日时分秒星期](https://github.com/SweetyLv/module_relacity_MVC/tree/master/Date)
 * [简约非成品倒计时](https://github.com/SweetyLv/sweety_projects-bootstrap/tree/master/second_skill)
-* [一行字段自动换行处理]（https://github.com/SweetyLv/sweety_projects-bootstrap/blob/master/replace_str.html）
 ### CSS3
 * [translateZ](http://htmlpreview.github.io/?https://github.com/SweetyLv/sweety/blob/master/translateZ_kn.html)
 ### how to write md
