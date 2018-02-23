@@ -1,7 +1,8 @@
-### Node.js
-* >[URL&HTTP协议&GET请求&POST请求](https://www.cnblogs.com/LDSmallCat/p/4942039.html)
-* >[nodejs router.get怎么在里面调用方法](https://zhidao.baidu.com/question/1898708777239951660.html)
-* >[nodejs Express 4.x req.body req.query req.params 三种获取参数的方法](https://www.cnblogs.com/yourstars/p/5993376.html)
+这里记录的一些动态效果以及网站项目
+
+### 学习笔记
+* [bootstrap国内推荐使用 BootCDN 上的库](https://github.com/SweetyLv/sweety_projects-bootstrap/blob/master/bootstrap_learning_mark.md)
+* [nodeJs的学习笔记](https://github.com/SweetyLv/sweety_projects-bootstrap/tree/master/nodeJs)
 
 ### 历史回顾
 * [第一个全站开发](http://htmlpreview.github.io/?https://github.com/SweetyLv/sweety_projects/blob/master/yichuan/index.html)
