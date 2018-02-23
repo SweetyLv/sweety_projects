@@ -1,5 +1,4 @@
-* There are some about relacity.
-* 这里记录了遵循MVC架构的java模板引擎relocity的组件
+* 这里记录的是nodeJs和动态效果、网站项目等
 ### 学习笔记
 * [bootstrap国内推荐使用 BootCDN 上的库](https://github.com/SweetyLv/sweety_projects-bootstrap/blob/master/bootstrap_learning_mark.md)
 * [nodeJs的学习笔记](https://github.com/SweetyLv/sweety_projects-bootstrap/tree/master/nodeJs)
