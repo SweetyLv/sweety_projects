@@ -1,8 +1,10 @@
-这里记录的一些动态效果以及网站项目
-
+* There are some about relacity.
+* 这里记录了遵循MVC架构的java模板引擎relocity的组件
 ### 学习笔记
 * [bootstrap国内推荐使用 BootCDN 上的库](https://github.com/SweetyLv/sweety_projects-bootstrap/blob/master/bootstrap_learning_mark.md)
 * [nodeJs的学习笔记](https://github.com/SweetyLv/sweety_projects-bootstrap/tree/master/nodeJs)
+* [GithubPages笔记](https://github.com/SweetyLv/sweety_node_php_knowlege/blob/master/githubpages_knowlege.md)
+* [GithubKnowlege笔记](https://github.com/SweetyLv/sweety_node_php_knowlege/blob/master/github_knowlege.md)
 
 ### 历史回顾
 * [第一个全站开发](http://htmlpreview.github.io/?https://github.com/SweetyLv/sweety_projects/blob/master/yichuan/index.html)
