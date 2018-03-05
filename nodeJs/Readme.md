@@ -14,6 +14,7 @@
 * [mongoose 安装及配置](http://yunkus.com/mongoose-install-config/)
 * 安装mongoose,需要在项目根目录下运行命令：npm install mongoose --save
 * [形象描述schema与database等的区别](https://zhidao.baidu.com/question/1863152252753215947.html)
+* [启动mongodb时候弹出系统api-ms-win-crt-runtime-l1-1-0.dll 丢失文件修复方法](https://jingyan.baidu.com/article/ab0b563067358ac15afa7dc5.html)
 
 ## node.js项目部署到云服务
 * 安装node.js时记得修改系统变量参数的参考：https://www.cnblogs.com/learnings/p/7372718.html
