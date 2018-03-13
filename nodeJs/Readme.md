@@ -22,6 +22,7 @@
 * >[node.js部署到阿里云全过程](http://blog.csdn.net/moumaobuchiyu/article/details/55004430)
 * >[xshell登陆云服务](https://jingyan.baidu.com/album/75ab0bcbc40b39d6864db23c.html?picindex=2)
 * >[部署项目完整版](http://blog.csdn.net/u013263917/article/details/79037770)
+* >[linux使用Node.js建立访问静态网页的服务实例详解](http://www.jb51.net/article/109082.htm)
 
 ## demo page
 * [demo_teaching canvas](https://segmentfault.com/a/1190000008278925)
