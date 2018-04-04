@@ -41,4 +41,4 @@
 * [swiper3.x的全部配置选项、方法、函数](http://www.swiper.com.cn/api/start/2014/1218/140.html)
 * [强悍的swiper](http://www.swiper.com.cn/)
 * [createjs](http://www.createjs.cc/)
-* [素材](http://www.17sucai.com/)
+* [17素材](http://www.17sucai.com/)
